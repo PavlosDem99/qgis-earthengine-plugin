@@ -38,10 +38,10 @@ A: Go to http://code.earthengine.google.com and make sure you can access code ed
 - [x] Create a new QGIS plugin skeleton
 - [x] Migrate to QGIS3
 - [x] Embed GEE Python library
-- [x] Implement Map.addLayer() for ee.Image
+- [x] Implement Map.addLayer(eeObject, visParams, name, shown, opacity) for ee.Image
 - [x] Implement Map.addLayer() for ee.Geometry, ee.Feature and ee.FeatureCollection
-- [x] Implement Map.centerObject()
-- [x] Implement Map.getBounds()
+- [x] Implement Map.centerObject(object, zoom)
+- [x] Implement Map.getBounds(asGeoJSON)
 - [x] Implement Map.getCenter()
 - [x] Implement Map.setCenter()
 - [x] Implement Map.getScale()
